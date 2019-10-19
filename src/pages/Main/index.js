@@ -98,7 +98,7 @@ export default class Main extends Component {
 
         <List
           data={users}
-          KeyExtractor={user => user.login}
+          keyExtractor={user => user.login}
           renderItem={({ item }) => (
             <User>
               <Avatar source={{ uri: item.avatar }} />
